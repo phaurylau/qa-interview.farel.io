@@ -1,9 +1,10 @@
-package io.farel
+package io.farel.interview
 
 import com.codeborne.selenide.Condition.*
 import com.codeborne.selenide.Selenide
-import io.farel.pages.factorialCalcPage
-import io.farel.script.invoke
+import io.farel.factorial
+import io.farel.interview.pages.factorialCalcPage
+import io.farel.interview.script.invoke
 import org.junit.jupiter.api.Assertions.assertEquals
 import org.junit.jupiter.api.DisplayName
 import org.junit.jupiter.api.Test
@@ -12,8 +13,8 @@ import org.junit.jupiter.params.provider.CsvSource
 
 class UiTest {
 
-    @Test
     @DisplayName("test positive calculate factorial")
+    @Test
     fun test01() {
         val number = 6
 
@@ -22,7 +23,7 @@ class UiTest {
                 open()
 
                 "Check UI elements" {
-                    calcName.shouldHave(exactText("The greatest factorial calculator!"))
+                    calcNameLabel.shouldHave(exactText("The greatest factorial calculator!"))
                     numberInput.shouldHave(attribute("placeholder", "Enter an integer"))
                     termsLink.shouldHave(text("Privacy")) //it's a bug - link text should be equal Terms and Conditions
                     privacyLink.shouldHave(text("Terms and Conditions")) //it's a bug - link text should be equal Privacy

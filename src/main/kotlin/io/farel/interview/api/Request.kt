@@ -1,4 +1,4 @@
-package io.farel.api
+package io.farel.interview.api
 
 import io.restassured.builder.RequestSpecBuilder
 import io.restassured.response.Response

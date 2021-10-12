@@ -1,6 +1,6 @@
-package io.farel.api
+package io.farel.interview.api
 
-import io.farel.script.invoke
+import io.farel.interview.script.invoke
 import io.restassured.RestAssured
 import io.restassured.authentication.BasicAuthScheme
 import io.restassured.builder.RequestSpecBuilder

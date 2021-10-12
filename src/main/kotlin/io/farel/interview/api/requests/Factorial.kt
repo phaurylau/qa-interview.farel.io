@@ -1,6 +1,6 @@
-package io.farel.api.requests
+package io.farel.interview.api.requests
 
-import io.farel.api.Request
+import io.farel.interview.api.Request
 
 var getFactorial = fun(number: Int, httpStatusCode: Int) = "/factorial".let {
     Request(

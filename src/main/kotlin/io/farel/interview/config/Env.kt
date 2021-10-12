@@ -1,4 +1,4 @@
-package io.farel.config
+package io.farel.interview.config
 
 import org.aeonbits.owner.Config
 

@@ -1,6 +1,6 @@
-package io.farel.script
+package io.farel.interview.script
 
-import io.farel.config.Env
+import io.farel.interview.config.Env
 import org.aeonbits.owner.ConfigFactory
 
 operator fun <T : Any, R> T.invoke(script: T.() -> R): Invoke<T, R> =
