@@ -1,6 +1,9 @@
 package io.farel.interview.config
 
 import org.aeonbits.owner.Config
+import org.aeonbits.owner.ConfigFactory
+
+val cfg: Env = ConfigFactory.create(Env::class.java)
 
 @Config.Sources("classpath:env.properties")
 interface Env : Config {

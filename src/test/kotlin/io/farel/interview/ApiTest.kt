@@ -1,9 +1,9 @@
 package io.farel.interview
 
+import io.farel.factorial
 import io.farel.interview.api.ApiClient
 import io.farel.interview.api.requests.getFactorial
-import io.farel.factorial
-import io.farel.interview.script.cfg
+import io.farel.interview.config.cfg
 import io.farel.interview.script.invoke
 import io.restassured.authentication.BasicAuthScheme
 import io.restassured.response.Response

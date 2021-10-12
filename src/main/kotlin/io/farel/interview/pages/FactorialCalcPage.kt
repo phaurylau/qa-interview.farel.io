@@ -3,7 +3,7 @@ package io.farel.interview.pages
 import com.codeborne.selenide.AuthenticationType
 import com.codeborne.selenide.Selenide.element
 import com.codeborne.selenide.Selenide.open
-import io.farel.interview.script.cfg
+import io.farel.interview.config.cfg
 
 val factorialCalcPage = FactorialCalcPage()
 
