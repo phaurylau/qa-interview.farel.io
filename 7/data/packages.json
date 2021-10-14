@@ -1,0 +1,134 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "children" : [ {
+    "name" : "io.farel.interview",
+    "children" : [ {
+      "name" : "UiTest",
+      "children" : [ {
+        "name" : "test01",
+        "uid" : "7d4aebb6808c647d",
+        "parentUid" : "19ac432d08e7cd1e59707dddb3c27885",
+        "status" : "passed",
+        "time" : {
+          "start" : 1634228769259,
+          "stop" : 1634228781516,
+          "duration" : 12257
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test02",
+        "uid" : "86e9e60c59bcaff9",
+        "parentUid" : "19ac432d08e7cd1e59707dddb3c27885",
+        "status" : "passed",
+        "time" : {
+          "start" : 1634228781650,
+          "stop" : 1634228782363,
+          "duration" : 713
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test02",
+        "uid" : "d0274ffd5a83e4a1",
+        "parentUid" : "19ac432d08e7cd1e59707dddb3c27885",
+        "status" : "passed",
+        "time" : {
+          "start" : 1634228782370,
+          "stop" : 1634228783442,
+          "duration" : 1072
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test02",
+        "uid" : "35d0a4bf6664c6b5",
+        "parentUid" : "19ac432d08e7cd1e59707dddb3c27885",
+        "status" : "passed",
+        "time" : {
+          "start" : 1634228783448,
+          "stop" : 1634228784418,
+          "duration" : 970
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "19ac432d08e7cd1e59707dddb3c27885"
+    }, {
+      "name" : "ApiTest",
+      "children" : [ {
+        "name" : "test01",
+        "uid" : "61fb510b2e2c1b05",
+        "parentUid" : "6bdd48a4f80e4b89defdd42ce4d65182",
+        "status" : "passed",
+        "time" : {
+          "start" : 1634228784869,
+          "stop" : 1634228787231,
+          "duration" : 2362
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test01",
+        "uid" : "34d19f4758c0d346",
+        "parentUid" : "6bdd48a4f80e4b89defdd42ce4d65182",
+        "status" : "passed",
+        "time" : {
+          "start" : 1634228787235,
+          "stop" : 1634228787671,
+          "duration" : 436
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test01",
+        "uid" : "833f2d0f620df6eb",
+        "parentUid" : "6bdd48a4f80e4b89defdd42ce4d65182",
+        "status" : "passed",
+        "time" : {
+          "start" : 1634228787677,
+          "stop" : 1634228788099,
+          "duration" : 422
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test02",
+        "uid" : "c2311996bf53a2c7",
+        "parentUid" : "6bdd48a4f80e4b89defdd42ce4d65182",
+        "status" : "passed",
+        "time" : {
+          "start" : 1634228788110,
+          "stop" : 1634228788714,
+          "duration" : 604
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test02",
+        "uid" : "70196c5573664b46",
+        "parentUid" : "6bdd48a4f80e4b89defdd42ce4d65182",
+        "status" : "passed",
+        "time" : {
+          "start" : 1634228788721,
+          "stop" : 1634228789136,
+          "duration" : 415
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "6bdd48a4f80e4b89defdd42ce4d65182"
+    } ],
+    "uid" : "io.farel.interview"
+  } ],
+  "name" : "packages"
+}
