@@ -4,6 +4,8 @@
 
 Все тесты можно запустить командой mvn clean test или через IntelliJ IDEA
 
+Результат выполнения тестов: [allure report](https://phaurylau.github.io/qa-interview.farel.io/3/#)
+
 [![test](https://github.com/phaurylau/qa-interview.farel.io/actions/workflows/test.yml/badge.svg)](https://github.com/phaurylau/qa-interview.farel.io/actions/workflows/test.yml)
 
 ### Test cases
