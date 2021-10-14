@@ -15,6 +15,7 @@ import org.junit.jupiter.params.ParameterizedTest
 import org.junit.jupiter.params.provider.CsvSource
 
 @Feature("ui tests")
+@DisplayName("ui tests suite")
 class UiTest {
 
     @BeforeEach
@@ -59,7 +60,7 @@ class UiTest {
     }
 
     @DisplayName("test various input value")
-    @ParameterizedTest
+    @ParameterizedTest(name = "factorial for number {0} is {1}")
     @CsvSource(
         value = [
             "3 4, Please enter an integer",

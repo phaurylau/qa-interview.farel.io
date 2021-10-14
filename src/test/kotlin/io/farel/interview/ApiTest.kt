@@ -18,6 +18,7 @@ const val STATUS_CODE_OK = 200
 const val STATUS_CODE_INTERNAL_SERVER_ERROR = 500
 
 @Feature("api tests")
+@DisplayName("api tests suite")
 class ApiTest {
 
     private val basicAuthScheme = BasicAuthScheme()
@@ -35,7 +36,7 @@ class ApiTest {
     }
 
     @DisplayName("test positive [POST] FACTORIAL endpoint")
-    @ParameterizedTest
+    @ParameterizedTest(name = "call factorial endpoint with number {0}")
     @ValueSource(ints = [0, 1, 12])
     fun test01(number: Int) {
         "Send POST request" {
@@ -50,7 +51,7 @@ class ApiTest {
     }
 
     @DisplayName("test negative [POST] FACTORIAL endpoint")
-    @ParameterizedTest
+    @ParameterizedTest(name = "call factorial endpoint with number {0}")
     @ValueSource(ints = [-10, 979])
     fun test02(number: Int) {
         "Send POST request" {
