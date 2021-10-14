@@ -1,6 +1,6 @@
 # This is a basic workflow to help you get started with Actions
 
-name: CI
+name: tests
 
 # Controls when the workflow will run
 on:
@@ -25,6 +25,8 @@ jobs:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v2
 
-      # Runs a single command using the runners shell
+      - name: Execute mvn clean compile
+        run: mvn clean compile
+        
       - name: Run API tests
-        run: mvn clean -Dtest=ApiTest test
+        run: mvn -Dtest=ApiTest test
