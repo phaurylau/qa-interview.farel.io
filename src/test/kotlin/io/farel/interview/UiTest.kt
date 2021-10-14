@@ -1,12 +1,14 @@
 package io.farel.interview
 
 import com.codeborne.selenide.Condition.*
+import com.codeborne.selenide.Configuration
 import com.codeborne.selenide.Selenide
 import io.farel.factorial
 import io.farel.interview.pages.factorialCalcPage
 import io.farel.interview.script.invoke
 import io.qameta.allure.Feature
 import org.junit.jupiter.api.Assertions.assertEquals
+import org.junit.jupiter.api.BeforeEach
 import org.junit.jupiter.api.DisplayName
 import org.junit.jupiter.api.Test
 import org.junit.jupiter.params.ParameterizedTest
@@ -14,6 +16,11 @@ import org.junit.jupiter.params.provider.CsvSource
 
 @Feature("ui tests")
 class UiTest {
+
+    @BeforeEach
+    fun setUp() {
+        Configuration.headless = true
+    }
 
     @DisplayName("test positive calculate factorial")
     @Test
