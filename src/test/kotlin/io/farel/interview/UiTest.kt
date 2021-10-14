@@ -4,6 +4,7 @@ import com.codeborne.selenide.Condition.*
 import com.codeborne.selenide.Configuration
 import com.codeborne.selenide.Selenide
 import io.farel.factorial
+import io.farel.interview.config.cfg
 import io.farel.interview.pages.factorialCalcPage
 import io.farel.interview.script.invoke
 import io.qameta.allure.Feature
@@ -20,7 +21,7 @@ class UiTest {
 
     @BeforeEach
     fun setUp() {
-        Configuration.headless = true
+        Configuration.headless = cfg.headless()
     }
 
     @DisplayName("test positive calculate factorial")

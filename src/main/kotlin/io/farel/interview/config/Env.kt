@@ -1,19 +1,24 @@
 package io.farel.interview.config
 
 import org.aeonbits.owner.Config
+import org.aeonbits.owner.Config.*
 import org.aeonbits.owner.ConfigFactory
 
 val cfg: Env = ConfigFactory.create(Env::class.java)
 
-@Config.Sources("classpath:env.properties")
+@LoadPolicy(LoadType.MERGE)
+@Sources("system:properties", "classpath:env.properties")
 interface Env : Config {
 
-    @Config.Key("url")
+    @Key("url")
     fun url(): String
 
-    @Config.Key("basic.auth.login")
+    @Key("basic.auth.login")
     fun login(): String
 
-    @Config.Key("basic.auth.pass")
+    @Key("basic.auth.pass")
     fun pass(): String
+
+    @Key("headless")
+    fun headless(): Boolean
 }
