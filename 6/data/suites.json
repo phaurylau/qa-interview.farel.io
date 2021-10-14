@@ -1,0 +1,130 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "children" : [ {
+    "name" : "ui tests suite",
+    "children" : [ {
+      "name" : "test positive calculate factorial",
+      "uid" : "52611248372d085e",
+      "parentUid" : "988e70a3fcac57b4ebf6c82b4e64200c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1634222662261,
+        "stop" : 1634222667424,
+        "duration" : 5163
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "factorial for number 3 4 is Please enter an integer",
+      "uid" : "c042f6c6e3e21b3c",
+      "parentUid" : "988e70a3fcac57b4ebf6c82b4e64200c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1634222667515,
+        "stop" : 1634222668289,
+        "duration" : 774
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "factorial for number 170 is The factorial of 170 is: 7.257415615307999e+306",
+      "uid" : "3afac89c297c70d4",
+      "parentUid" : "988e70a3fcac57b4ebf6c82b4e64200c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1634222668300,
+        "stop" : 1634222669498,
+        "duration" : 1198
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "factorial for number 171 is The factorial of 171 is: Infinity",
+      "uid" : "8a6b626cad77f610",
+      "parentUid" : "988e70a3fcac57b4ebf6c82b4e64200c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1634222669506,
+        "stop" : 1634222670612,
+        "duration" : 1106
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "988e70a3fcac57b4ebf6c82b4e64200c"
+  }, {
+    "name" : "api tests suite",
+    "children" : [ {
+      "name" : "call factorial endpoint with number 0",
+      "uid" : "41509f12123c11c5",
+      "parentUid" : "06c3218a0d275b2c48c57a085876aaf5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1634222670842,
+        "stop" : 1634222672908,
+        "duration" : 2066
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "call factorial endpoint with number 1",
+      "uid" : "41132fdf858ec01a",
+      "parentUid" : "06c3218a0d275b2c48c57a085876aaf5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1634222672921,
+        "stop" : 1634222673527,
+        "duration" : 606
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "call factorial endpoint with number 12",
+      "uid" : "238bcbf3569e89fe",
+      "parentUid" : "06c3218a0d275b2c48c57a085876aaf5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1634222673533,
+        "stop" : 1634222674161,
+        "duration" : 628
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "call factorial endpoint with number -10",
+      "uid" : "b4ce86972bdcf867",
+      "parentUid" : "06c3218a0d275b2c48c57a085876aaf5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1634222674169,
+        "stop" : 1634222674896,
+        "duration" : 727
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "call factorial endpoint with number 979",
+      "uid" : "d6ded80c9e0d57fc",
+      "parentUid" : "06c3218a0d275b2c48c57a085876aaf5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1634222674907,
+        "stop" : 1634222675509,
+        "duration" : 602
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "06c3218a0d275b2c48c57a085876aaf5"
+  } ],
+  "name" : "suites"
+}

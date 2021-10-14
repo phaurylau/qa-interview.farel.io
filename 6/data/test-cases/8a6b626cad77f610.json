@@ -1,0 +1,78 @@
+{
+  "uid" : "8a6b626cad77f610",
+  "name" : "factorial for number 171 is The factorial of 171 is: Infinity",
+  "fullName" : "io.farel.interview.UiTest.test02",
+  "historyId" : "31079e1de2714cb2c4b42d201d0684a2",
+  "time" : {
+    "start" : 1634222669506,
+    "stop" : 1634222670612,
+    "duration" : 1106
+  },
+  "description" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "setUp",
+    "time" : {
+      "start" : 1634222669506,
+      "stop" : 1634222669506,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "junit.platform.uniqueid",
+    "value" : "[engine:junit-jupiter]/[class:io.farel.interview.UiTest]/[test-template:test02(java.lang.String, java.lang.String)]/[test-template-invocation:#3]"
+  }, {
+    "name" : "feature",
+    "value" : "ui tests"
+  }, {
+    "name" : "host",
+    "value" : "fv-az123-350"
+  }, {
+    "name" : "thread",
+    "value" : "3012@fv-az123-350.ForkJoinPool-1-worker-3(13)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "io.farel.interview.UiTest"
+  }, {
+    "name" : "testClass",
+    "value" : "io.farel.interview.UiTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "test02"
+  }, {
+    "name" : "suite",
+    "value" : "ui tests suite"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "8a6b626cad77f610.json",
+  "parameterValues" : [ ]
+}

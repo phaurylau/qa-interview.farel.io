@@ -1,0 +1,10 @@
+[ {
+  "name" : "GitHub Actions",
+  "type" : "github",
+  "url" : "https://phaurylau.github.io/qa-interview.farel.io",
+  "buildOrder" : 6,
+  "buildName" : "GitHub Actions Run #1342281052",
+  "buildUrl" : "https://github.com/phaurylau/qa-interview.farel.io/actions/runs/1342281052",
+  "reportName" : "Allure Report with history",
+  "reportUrl" : "https://phaurylau.github.io/qa-interview.farel.io/6/"
+} ]
