@@ -4,7 +4,7 @@
 
 Все тесты можно запустить командой mvn clean test или через IntelliJ IDEA
 
-[![API tests](https://github.com/phaurylau/qa-interview.farel.io/actions/workflows/maven.yml/badge.svg?branch=master)](https://github.com/phaurylau/qa-interview.farel.io/actions/workflows/maven.yml)
+[![test](https://github.com/phaurylau/qa-interview.farel.io/actions/workflows/test.yml/badge.svg)](https://github.com/phaurylau/qa-interview.farel.io/actions/workflows/test.yml)
 
 ### Test cases
 
