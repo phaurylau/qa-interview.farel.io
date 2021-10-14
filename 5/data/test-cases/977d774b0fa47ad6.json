@@ -1,0 +1,78 @@
+{
+  "uid" : "977d774b0fa47ad6",
+  "name" : "[2] 170, The factorial of 170 is: 7.257415615307999e+306",
+  "fullName" : "io.farel.interview.UiTest.test02",
+  "historyId" : "d3f22073a04f6295a25a78aee42e56c4",
+  "time" : {
+    "start" : 1634218546020,
+    "stop" : 1634218547340,
+    "duration" : 1320
+  },
+  "description" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "setUp",
+    "time" : {
+      "start" : 1634218546023,
+      "stop" : 1634218546023,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "junit.platform.uniqueid",
+    "value" : "[engine:junit-jupiter]/[class:io.farel.interview.UiTest]/[test-template:test02(java.lang.String, java.lang.String)]/[test-template-invocation:#2]"
+  }, {
+    "name" : "feature",
+    "value" : "ui tests"
+  }, {
+    "name" : "host",
+    "value" : "fv-az77-391"
+  }, {
+    "name" : "thread",
+    "value" : "3075@fv-az77-391.ForkJoinPool-1-worker-3(13)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "io.farel.interview.UiTest"
+  }, {
+    "name" : "testClass",
+    "value" : "io.farel.interview.UiTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "test02"
+  }, {
+    "name" : "suite",
+    "value" : "io.farel.interview.UiTest"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "977d774b0fa47ad6.json",
+  "parameterValues" : [ ]
+}
