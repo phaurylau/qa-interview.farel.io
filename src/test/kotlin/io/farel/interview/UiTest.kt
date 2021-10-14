@@ -5,12 +5,14 @@ import com.codeborne.selenide.Selenide
 import io.farel.factorial
 import io.farel.interview.pages.factorialCalcPage
 import io.farel.interview.script.invoke
+import io.qameta.allure.Feature
 import org.junit.jupiter.api.Assertions.assertEquals
 import org.junit.jupiter.api.DisplayName
 import org.junit.jupiter.api.Test
 import org.junit.jupiter.params.ParameterizedTest
 import org.junit.jupiter.params.provider.CsvSource
 
+@Feature("ui tests")
 class UiTest {
 
     @DisplayName("test positive calculate factorial")

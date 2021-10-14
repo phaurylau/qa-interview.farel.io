@@ -5,6 +5,7 @@ import io.farel.interview.api.ApiClient
 import io.farel.interview.api.requests.getFactorial
 import io.farel.interview.config.cfg
 import io.farel.interview.script.invoke
+import io.qameta.allure.Feature
 import io.restassured.authentication.BasicAuthScheme
 import io.restassured.response.Response
 import org.junit.jupiter.api.Assertions.assertEquals
@@ -16,6 +17,7 @@ import org.junit.jupiter.params.provider.ValueSource
 const val STATUS_CODE_OK = 200
 const val STATUS_CODE_INTERNAL_SERVER_ERROR = 500
 
+@Feature("api tests")
 class ApiTest {
 
     private val basicAuthScheme = BasicAuthScheme()
