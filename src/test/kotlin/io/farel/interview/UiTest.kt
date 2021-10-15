@@ -1,6 +1,7 @@
 package io.farel.interview
 
-import com.codeborne.selenide.Condition.*
+import com.codeborne.selenide.Condition.attribute
+import com.codeborne.selenide.Condition.exactText
 import com.codeborne.selenide.Configuration
 import com.codeborne.selenide.Selenide
 import io.farel.factorial
@@ -8,12 +9,14 @@ import io.farel.interview.config.cfg
 import io.farel.interview.pages.factorialCalcPage
 import io.farel.interview.script.invoke
 import io.qameta.allure.Feature
+import org.junit.jupiter.api.AfterEach
 import org.junit.jupiter.api.Assertions.assertEquals
 import org.junit.jupiter.api.BeforeEach
+import org.junit.jupiter.api.Disabled
 import org.junit.jupiter.api.DisplayName
-import org.junit.jupiter.api.Test
 import org.junit.jupiter.params.ParameterizedTest
 import org.junit.jupiter.params.provider.CsvSource
+import org.junit.jupiter.params.provider.ValueSource
 
 @Feature("ui tests")
 @DisplayName("ui tests suite")
@@ -25,10 +28,12 @@ class UiTest {
     }
 
     @DisplayName("test positive calculate factorial")
-    @Test
-    fun test01() {
-        val number = 6
+    @ParameterizedTest
+    @ValueSource(strings = ["chrome", "firefox"])
+    fun test01(browserName: String) {
+        Configuration.browser = browserName
 
+        val number = 6
         "Open factorial page" {
             factorialCalcPage {
                 open()
@@ -36,9 +41,9 @@ class UiTest {
                 "Check UI elements" {
                     calcNameLabel.shouldHave(exactText("The greatest factorial calculator!"))
                     numberInput.shouldHave(attribute("placeholder", "Enter an integer"))
-                    termsLink.shouldHave(text("Privacy")) //it's a bug - link text should be equal Terms and Conditions
-                    privacyLink.shouldHave(text("Terms and Conditions")) //it's a bug - link text should be equal Privacy
-                    servicesLink.shouldHave(text("Qxf2 Services"))
+                    termsLink.shouldHave(exactText("Privacy")) //it's a bug - link text should be equal Terms and Conditions
+                    privacyLink.shouldHave(exactText("Terms and Conditions")) //it's a bug - link text should be equal Privacy
+                    servicesLink.shouldHave(exactText("Qxf2 Services"))
                     assertEquals(
                         "Factoriall",
                         Selenide.title(),
@@ -55,11 +60,12 @@ class UiTest {
         }
         "Check correct result input" {
             factorialCalcPage {
-                resultLabel.shouldHave(text("The factorial of $number is: " + factorial(number)))
+                resultLabel.shouldHave(exactText("The factorial of $number is: " + factorial(number)))
             }
         }
     }
 
+    @Disabled
     @DisplayName("test various input value")
     @ParameterizedTest(name = "factorial for number {0} is {1}")
     @CsvSource(
@@ -73,7 +79,12 @@ class UiTest {
         factorialCalcPage {
             open()
             calculateFactorialFor(value)
-            resultLabel.shouldHave(text(message))
+            resultLabel.shouldHave(exactText(message))
         }
+    }
+
+    @AfterEach
+    fun tearDown() {
+        Selenide.closeWebDriver()
     }
 }
