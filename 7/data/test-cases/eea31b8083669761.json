@@ -1,12 +1,12 @@
 {
-  "uid" : "c2311996bf53a2c7",
+  "uid" : "eea31b8083669761",
   "name" : "call factorial endpoint with number -10",
   "fullName" : "io.farel.interview.ApiTest.test02",
   "historyId" : "7c9fedb8e1ea7fb718e5f887088834c8",
   "time" : {
-    "start" : 1634228788110,
-    "stop" : 1634228788714,
-    "duration" : 604
+    "start" : 1634297121096,
+    "stop" : 1634297121685,
+    "duration" : 589
   },
   "description" : "",
   "status" : "passed",
@@ -15,8 +15,8 @@
   "beforeStages" : [ {
     "name" : "setUp",
     "time" : {
-      "start" : 1634228788112,
-      "stop" : 1634228788113,
+      "start" : 1634297121097,
+      "stop" : 1634297121098,
       "duration" : 1
     },
     "status" : "passed",
@@ -37,10 +37,10 @@
     "value" : "api tests"
   }, {
     "name" : "host",
-    "value" : "fv-az28-833"
+    "value" : "fv-az39-975"
   }, {
     "name" : "thread",
-    "value" : "3045@fv-az28-833.ForkJoinPool-1-worker-3(13)"
+    "value" : "3076@fv-az39-975.ForkJoinPool-1-worker-3(13)"
   }, {
     "name" : "framework",
     "value" : "junit-platform"
@@ -73,6 +73,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "c2311996bf53a2c7.json",
+  "source" : "eea31b8083669761.json",
   "parameterValues" : [ ]
 }

@@ -1,12 +1,12 @@
 {
-  "uid" : "86e9e60c59bcaff9",
-  "name" : "factorial for number 3 4 is Please enter an integer",
-  "fullName" : "io.farel.interview.UiTest.test02",
-  "historyId" : "d40f7ec51a17cd6da8563a4a6b823411",
+  "uid" : "cfd9dc3ba1400d1c",
+  "name" : "test positive calculate factorial",
+  "fullName" : "io.farel.interview.UiTest.test01",
+  "historyId" : "646b3e19a072689b83978720d8a6eb63",
   "time" : {
-    "start" : 1634228781650,
-    "stop" : 1634228782363,
-    "duration" : 713
+    "start" : 1634297110339,
+    "stop" : 1634297115081,
+    "duration" : 4742
   },
   "description" : "",
   "status" : "passed",
@@ -15,9 +15,9 @@
   "beforeStages" : [ {
     "name" : "setUp",
     "time" : {
-      "start" : 1634228781656,
-      "stop" : 1634228781656,
-      "duration" : 0
+      "start" : 1634297110366,
+      "stop" : 1634297110421,
+      "duration" : 55
     },
     "status" : "passed",
     "steps" : [ ],
@@ -31,16 +31,16 @@
   "afterStages" : [ ],
   "labels" : [ {
     "name" : "junit.platform.uniqueid",
-    "value" : "[engine:junit-jupiter]/[class:io.farel.interview.UiTest]/[test-template:test02(java.lang.String, java.lang.String)]/[test-template-invocation:#1]"
+    "value" : "[engine:junit-jupiter]/[class:io.farel.interview.UiTest]/[method:test01()]"
   }, {
     "name" : "feature",
     "value" : "ui tests"
   }, {
     "name" : "host",
-    "value" : "fv-az28-833"
+    "value" : "fv-az39-975"
   }, {
     "name" : "thread",
-    "value" : "3045@fv-az28-833.ForkJoinPool-1-worker-3(13)"
+    "value" : "3076@fv-az39-975.ForkJoinPool-1-worker-3(13)"
   }, {
     "name" : "framework",
     "value" : "junit-platform"
@@ -55,7 +55,7 @@
     "value" : "io.farel.interview.UiTest"
   }, {
     "name" : "testMethod",
-    "value" : "test02"
+    "value" : "test01"
   }, {
     "name" : "suite",
     "value" : "ui tests suite"
@@ -73,6 +73,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "86e9e60c59bcaff9.json",
+  "source" : "cfd9dc3ba1400d1c.json",
   "parameterValues" : [ ]
 }

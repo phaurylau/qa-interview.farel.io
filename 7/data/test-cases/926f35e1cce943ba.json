@@ -1,12 +1,12 @@
 {
-  "uid" : "7d4aebb6808c647d",
-  "name" : "test positive calculate factorial",
-  "fullName" : "io.farel.interview.UiTest.test01",
-  "historyId" : "646b3e19a072689b83978720d8a6eb63",
+  "uid" : "926f35e1cce943ba",
+  "name" : "factorial for number 170 is The factorial of 170 is: 7.257415615307999e+306",
+  "fullName" : "io.farel.interview.UiTest.test02",
+  "historyId" : "d3f22073a04f6295a25a78aee42e56c4",
   "time" : {
-    "start" : 1634228769259,
-    "stop" : 1634228781516,
-    "duration" : 12257
+    "start" : 1634297115934,
+    "stop" : 1634297116920,
+    "duration" : 986
   },
   "description" : "",
   "status" : "passed",
@@ -15,9 +15,9 @@
   "beforeStages" : [ {
     "name" : "setUp",
     "time" : {
-      "start" : 1634228769286,
-      "stop" : 1634228769361,
-      "duration" : 75
+      "start" : 1634297115936,
+      "stop" : 1634297115936,
+      "duration" : 0
     },
     "status" : "passed",
     "steps" : [ ],
@@ -31,16 +31,16 @@
   "afterStages" : [ ],
   "labels" : [ {
     "name" : "junit.platform.uniqueid",
-    "value" : "[engine:junit-jupiter]/[class:io.farel.interview.UiTest]/[method:test01()]"
+    "value" : "[engine:junit-jupiter]/[class:io.farel.interview.UiTest]/[test-template:test02(java.lang.String, java.lang.String)]/[test-template-invocation:#2]"
   }, {
     "name" : "feature",
     "value" : "ui tests"
   }, {
     "name" : "host",
-    "value" : "fv-az28-833"
+    "value" : "fv-az39-975"
   }, {
     "name" : "thread",
-    "value" : "3045@fv-az28-833.ForkJoinPool-1-worker-3(13)"
+    "value" : "3076@fv-az39-975.ForkJoinPool-1-worker-3(13)"
   }, {
     "name" : "framework",
     "value" : "junit-platform"
@@ -55,7 +55,7 @@
     "value" : "io.farel.interview.UiTest"
   }, {
     "name" : "testMethod",
-    "value" : "test01"
+    "value" : "test02"
   }, {
     "name" : "suite",
     "value" : "ui tests suite"
@@ -73,6 +73,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "7d4aebb6808c647d.json",
+  "source" : "926f35e1cce943ba.json",
   "parameterValues" : [ ]
 }

@@ -9,13 +9,13 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "35d0a4bf6664c6b5",
-      "reportUrl" : "https://phaurylau.github.io/qa-interview.farel.io/7//#testresult/35d0a4bf6664c6b5",
+      "uid" : "ef3e2d1dbe3a4f08",
+      "reportUrl" : "https://phaurylau.github.io/qa-interview.farel.io/7//#testresult/ef3e2d1dbe3a4f08",
       "status" : "passed",
       "time" : {
-        "start" : 1634228783448,
-        "stop" : 1634228784418,
-        "duration" : 970
+        "start" : 1634297116926,
+        "stop" : 1634297117836,
+        "duration" : 910
       }
     } ]
   },
@@ -29,13 +29,13 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "70196c5573664b46",
-      "reportUrl" : "https://phaurylau.github.io/qa-interview.farel.io/7//#testresult/70196c5573664b46",
+      "uid" : "1ccfb0bb54d910a8",
+      "reportUrl" : "https://phaurylau.github.io/qa-interview.farel.io/7//#testresult/1ccfb0bb54d910a8",
       "status" : "passed",
       "time" : {
-        "start" : 1634228788721,
-        "stop" : 1634228789136,
-        "duration" : 415
+        "start" : 1634297121693,
+        "stop" : 1634297122118,
+        "duration" : 425
       }
     } ]
   },
@@ -49,13 +49,13 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "c2311996bf53a2c7",
-      "reportUrl" : "https://phaurylau.github.io/qa-interview.farel.io/7//#testresult/c2311996bf53a2c7",
+      "uid" : "eea31b8083669761",
+      "reportUrl" : "https://phaurylau.github.io/qa-interview.farel.io/7//#testresult/eea31b8083669761",
       "status" : "passed",
       "time" : {
-        "start" : 1634228788110,
-        "stop" : 1634228788714,
-        "duration" : 604
+        "start" : 1634297121096,
+        "stop" : 1634297121685,
+        "duration" : 589
       }
     } ]
   },
@@ -69,13 +69,13 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "d0274ffd5a83e4a1",
-      "reportUrl" : "https://phaurylau.github.io/qa-interview.farel.io/7//#testresult/d0274ffd5a83e4a1",
+      "uid" : "926f35e1cce943ba",
+      "reportUrl" : "https://phaurylau.github.io/qa-interview.farel.io/7//#testresult/926f35e1cce943ba",
       "status" : "passed",
       "time" : {
-        "start" : 1634228782370,
-        "stop" : 1634228783442,
-        "duration" : 1072
+        "start" : 1634297115934,
+        "stop" : 1634297116920,
+        "duration" : 986
       }
     } ]
   },
@@ -89,53 +89,13 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "61fb510b2e2c1b05",
-      "reportUrl" : "https://phaurylau.github.io/qa-interview.farel.io/7//#testresult/61fb510b2e2c1b05",
+      "uid" : "dbf132f66d155052",
+      "reportUrl" : "https://phaurylau.github.io/qa-interview.farel.io/7//#testresult/dbf132f66d155052",
       "status" : "passed",
       "time" : {
-        "start" : 1634228784869,
-        "stop" : 1634228787231,
-        "duration" : 2362
-      }
-    } ]
-  },
-  "646b3e19a072689b83978720d8a6eb63" : {
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 0,
-      "skipped" : 0,
-      "passed" : 1,
-      "unknown" : 0,
-      "total" : 1
-    },
-    "items" : [ {
-      "uid" : "7d4aebb6808c647d",
-      "reportUrl" : "https://phaurylau.github.io/qa-interview.farel.io/7//#testresult/7d4aebb6808c647d",
-      "status" : "passed",
-      "time" : {
-        "start" : 1634228769259,
-        "stop" : 1634228781516,
-        "duration" : 12257
-      }
-    } ]
-  },
-  "e5f4059629bc8d3291b1c94c475a52d9" : {
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 0,
-      "skipped" : 0,
-      "passed" : 1,
-      "unknown" : 0,
-      "total" : 1
-    },
-    "items" : [ {
-      "uid" : "34d19f4758c0d346",
-      "reportUrl" : "https://phaurylau.github.io/qa-interview.farel.io/7//#testresult/34d19f4758c0d346",
-      "status" : "passed",
-      "time" : {
-        "start" : 1634228787235,
-        "stop" : 1634228787671,
-        "duration" : 436
+        "start" : 1634297118134,
+        "stop" : 1634297120224,
+        "duration" : 2090
       }
     } ]
   },
@@ -149,13 +109,53 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "86e9e60c59bcaff9",
-      "reportUrl" : "https://phaurylau.github.io/qa-interview.farel.io/7//#testresult/86e9e60c59bcaff9",
+      "uid" : "40ce1e2e7e1eb96f",
+      "reportUrl" : "https://phaurylau.github.io/qa-interview.farel.io/7//#testresult/40ce1e2e7e1eb96f",
       "status" : "passed",
       "time" : {
-        "start" : 1634228781650,
-        "stop" : 1634228782363,
-        "duration" : 713
+        "start" : 1634297115201,
+        "stop" : 1634297115920,
+        "duration" : 719
+      }
+    } ]
+  },
+  "646b3e19a072689b83978720d8a6eb63" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "cfd9dc3ba1400d1c",
+      "reportUrl" : "https://phaurylau.github.io/qa-interview.farel.io/7//#testresult/cfd9dc3ba1400d1c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1634297110339,
+        "stop" : 1634297115081,
+        "duration" : 4742
+      }
+    } ]
+  },
+  "e5f4059629bc8d3291b1c94c475a52d9" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "e1f12565ec40f966",
+      "reportUrl" : "https://phaurylau.github.io/qa-interview.farel.io/7//#testresult/e1f12565ec40f966",
+      "status" : "passed",
+      "time" : {
+        "start" : 1634297120241,
+        "stop" : 1634297120667,
+        "duration" : 426
       }
     } ]
   },
@@ -169,13 +169,13 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "833f2d0f620df6eb",
-      "reportUrl" : "https://phaurylau.github.io/qa-interview.farel.io/7//#testresult/833f2d0f620df6eb",
+      "uid" : "1d69d1d7f06ca191",
+      "reportUrl" : "https://phaurylau.github.io/qa-interview.farel.io/7//#testresult/1d69d1d7f06ca191",
       "status" : "passed",
       "time" : {
-        "start" : 1634228787677,
-        "stop" : 1634228788099,
-        "duration" : 422
+        "start" : 1634297120676,
+        "stop" : 1634297121089,
+        "duration" : 413
       }
     } ]
   }

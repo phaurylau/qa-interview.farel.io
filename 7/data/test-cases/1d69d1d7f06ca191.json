@@ -1,12 +1,12 @@
 {
-  "uid" : "d0274ffd5a83e4a1",
-  "name" : "factorial for number 170 is The factorial of 170 is: 7.257415615307999e+306",
-  "fullName" : "io.farel.interview.UiTest.test02",
-  "historyId" : "d3f22073a04f6295a25a78aee42e56c4",
+  "uid" : "1d69d1d7f06ca191",
+  "name" : "call factorial endpoint with number 12",
+  "fullName" : "io.farel.interview.ApiTest.test01",
+  "historyId" : "921491e9b52f5bfa4a5bcfa345f8b1de",
   "time" : {
-    "start" : 1634228782370,
-    "stop" : 1634228783442,
-    "duration" : 1072
+    "start" : 1634297120676,
+    "stop" : 1634297121089,
+    "duration" : 413
   },
   "description" : "",
   "status" : "passed",
@@ -15,8 +15,8 @@
   "beforeStages" : [ {
     "name" : "setUp",
     "time" : {
-      "start" : 1634228782371,
-      "stop" : 1634228782371,
+      "start" : 1634297120677,
+      "stop" : 1634297120677,
       "duration" : 0
     },
     "status" : "passed",
@@ -31,16 +31,16 @@
   "afterStages" : [ ],
   "labels" : [ {
     "name" : "junit.platform.uniqueid",
-    "value" : "[engine:junit-jupiter]/[class:io.farel.interview.UiTest]/[test-template:test02(java.lang.String, java.lang.String)]/[test-template-invocation:#2]"
+    "value" : "[engine:junit-jupiter]/[class:io.farel.interview.ApiTest]/[test-template:test01(int)]/[test-template-invocation:#3]"
   }, {
     "name" : "feature",
-    "value" : "ui tests"
+    "value" : "api tests"
   }, {
     "name" : "host",
-    "value" : "fv-az28-833"
+    "value" : "fv-az39-975"
   }, {
     "name" : "thread",
-    "value" : "3045@fv-az28-833.ForkJoinPool-1-worker-3(13)"
+    "value" : "3076@fv-az39-975.ForkJoinPool-1-worker-3(13)"
   }, {
     "name" : "framework",
     "value" : "junit-platform"
@@ -49,16 +49,16 @@
     "value" : "java"
   }, {
     "name" : "package",
-    "value" : "io.farel.interview.UiTest"
+    "value" : "io.farel.interview.ApiTest"
   }, {
     "name" : "testClass",
-    "value" : "io.farel.interview.UiTest"
+    "value" : "io.farel.interview.ApiTest"
   }, {
     "name" : "testMethod",
-    "value" : "test02"
+    "value" : "test01"
   }, {
     "name" : "suite",
-    "value" : "ui tests suite"
+    "value" : "api tests suite"
   }, {
     "name" : "resultFormat",
     "value" : "allure2"
@@ -73,6 +73,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "d0274ffd5a83e4a1.json",
+  "source" : "1d69d1d7f06ca191.json",
   "parameterValues" : [ ]
 }
