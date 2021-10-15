@@ -1,0 +1,93 @@
+{
+  "uid" : "3eec42d0dd6b9ea3",
+  "name" : "factorial for number 171 is The factorial of 171 is: Infinity",
+  "fullName" : "io.farel.interview.UiTest.test02",
+  "historyId" : "31079e1de2714cb2c4b42d201d0684a2",
+  "time" : {
+    "start" : 1634305111323,
+    "stop" : 1634305130135,
+    "duration" : 18812
+  },
+  "description" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "setUp",
+    "time" : {
+      "start" : 1634305111369,
+      "stop" : 1634305111486,
+      "duration" : 117
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "tearDown",
+    "time" : {
+      "start" : 1634305128232,
+      "stop" : 1634305130135,
+      "duration" : 1903
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "junit.platform.uniqueid",
+    "value" : "[engine:junit-jupiter]/[class:io.farel.interview.UiTest]/[test-template:test02(java.lang.String, java.lang.String)]/[test-template-invocation:#3]"
+  }, {
+    "name" : "feature",
+    "value" : "ui tests"
+  }, {
+    "name" : "host",
+    "value" : "fv-az28-833"
+  }, {
+    "name" : "thread",
+    "value" : "3044@fv-az28-833.ForkJoinPool-1-worker-5(14)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "io.farel.interview.UiTest"
+  }, {
+    "name" : "testClass",
+    "value" : "io.farel.interview.UiTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "test02"
+  }, {
+    "name" : "suite",
+    "value" : "ui tests suite"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "3eec42d0dd6b9ea3.json",
+  "parameterValues" : [ ]
+}
