@@ -1,0 +1,163 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "children" : [ {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "timeout: Timed out receiving message from renderer: -0.003\n  (Session info: headless chrome=97.0.4692.71)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'fv-az74-799', ip: '10.1.0.119', os.name: 'Linux', os.arch: 'amd64', os.version: '5.11.0-1027-azure', java.version: '11.0.13'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nselenide.url: https://qa:sanfrancisco!@qa-interview.farel.io/\nCapabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 97.0.4692.71, chrome: {chromedriverVersion: 97.0.4692.71 (adefa7837d02a..., userDataDir: /tmp/.com.google.Chrome.LURi6M}, goog:chromeOptions: {debuggerAddress: localhost:34747}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nselenide.baseUrl: http://localhost:8080\nSession ID: 7fa9878e4563e8ba71ff6d0e169de2b1",
+      "children" : [ {
+        "name" : "factorial for number 170 is The factorial of 170 is: 7.257415615307999e+306",
+        "uid" : "a77f664e4d8dba7b",
+        "parentUid" : "e6b8dd17cb2099b762da042f3fd342e3",
+        "status" : "broken",
+        "time" : {
+          "start" : 1643053868793,
+          "stop" : 1643053905134,
+          "duration" : 36341
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "e6b8dd17cb2099b762da042f3fd342e3"
+    }, {
+      "name" : "timeout: Timed out receiving message from renderer: -0.002\n  (Session info: headless chrome=97.0.4692.71)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'fv-az74-799', ip: '10.1.0.119', os.name: 'Linux', os.arch: 'amd64', os.version: '5.11.0-1027-azure', java.version: '11.0.13'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nselenide.url: https://qa:sanfrancisco!@qa-interview.farel.io/\nCapabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 97.0.4692.71, chrome: {chromedriverVersion: 97.0.4692.71 (adefa7837d02a..., userDataDir: /tmp/.com.google.Chrome.luW6yb}, goog:chromeOptions: {debuggerAddress: localhost:37829}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nselenide.baseUrl: http://localhost:8080\nSession ID: c25733bc7f2a459a3d64327ab1413927",
+      "children" : [ {
+        "name" : "factorial for number 3 4 is Please enter an integer",
+        "uid" : "d284f3794a5d9cf0",
+        "parentUid" : "67cbad55fccfa6c9d85f0bbc8e26e1ac",
+        "status" : "broken",
+        "time" : {
+          "start" : 1643053868794,
+          "stop" : 1643053905149,
+          "duration" : 36355
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "67cbad55fccfa6c9d85f0bbc8e26e1ac"
+    }, {
+      "name" : "timeout: Timed out receiving message from renderer: -0.003\n  (Session info: headless chrome=97.0.4692.71)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'fv-az74-799', ip: '10.1.0.119', os.name: 'Linux', os.arch: 'amd64', os.version: '5.11.0-1027-azure', java.version: '11.0.13'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nselenide.url: https://qa:sanfrancisco!@qa-interview.farel.io/\nCapabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 97.0.4692.71, chrome: {chromedriverVersion: 97.0.4692.71 (adefa7837d02a..., userDataDir: /tmp/.com.google.Chrome.N4TABE}, goog:chromeOptions: {debuggerAddress: localhost:38407}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nselenide.baseUrl: http://localhost:8080\nSession ID: c5cca03b3fd821357065d8f401e322b8",
+      "children" : [ {
+        "name" : "factorial for number 171 is The factorial of 171 is: Infinity",
+        "uid" : "89e24828d14436b7",
+        "parentUid" : "8ea11edaa772902a6186f37858dba4c6",
+        "status" : "broken",
+        "time" : {
+          "start" : 1643053868797,
+          "stop" : 1643053905150,
+          "duration" : 36353
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "8ea11edaa772902a6186f37858dba4c6"
+    }, {
+      "name" : "timeout: Timed out receiving message from renderer: -0.003\n  (Session info: headless chrome=97.0.4692.71)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'fv-az74-799', ip: '10.1.0.119', os.name: 'Linux', os.arch: 'amd64', os.version: '5.11.0-1027-azure', java.version: '11.0.13'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nselenide.url: https://qa:sanfrancisco!@qa-interview.farel.io/\nCapabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 97.0.4692.71, chrome: {chromedriverVersion: 97.0.4692.71 (adefa7837d02a..., userDataDir: /tmp/.com.google.Chrome.Qxts9s}, goog:chromeOptions: {debuggerAddress: localhost:32797}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nselenide.baseUrl: http://localhost:8080\nSession ID: d79cee542354de46445982f509f680be",
+      "children" : [ {
+        "name" : "[2] firefox",
+        "uid" : "4876f994472894c9",
+        "parentUid" : "a70fc2389360e8b932ef0c3a10e4b569",
+        "status" : "broken",
+        "time" : {
+          "start" : 1643053868797,
+          "stop" : 1643053905147,
+          "duration" : 36350
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "a70fc2389360e8b932ef0c3a10e4b569"
+    }, {
+      "name" : "timeout: Timed out receiving message from renderer: -0.003\n  (Session info: headless chrome=97.0.4692.71)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'fv-az74-799', ip: '10.1.0.119', os.name: 'Linux', os.arch: 'amd64', os.version: '5.11.0-1027-azure', java.version: '11.0.13'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nselenide.url: https://qa:sanfrancisco!@qa-interview.farel.io/\nCapabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 97.0.4692.71, chrome: {chromedriverVersion: 97.0.4692.71 (adefa7837d02a..., userDataDir: /tmp/.com.google.Chrome.P78Nkb}, goog:chromeOptions: {debuggerAddress: localhost:34393}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nselenide.baseUrl: http://localhost:8080\nSession ID: 8eb9f71b356f58451b8a6f35838009e4",
+      "children" : [ {
+        "name" : "[1] chrome",
+        "uid" : "9e57ba0ac49aa633",
+        "parentUid" : "2e5d5dbc61643c83e100406747004a97",
+        "status" : "broken",
+        "time" : {
+          "start" : 1643053868798,
+          "stop" : 1643053905112,
+          "duration" : 36314
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "2e5d5dbc61643c83e100406747004a97"
+    }, {
+      "name" : "Connection timed out (Connection timed out)",
+      "children" : [ {
+        "name" : "call factorial endpoint with number 0",
+        "uid" : "e2172b5aec580047",
+        "parentUid" : "117a616540c807d3dc0a747efd6dbd2d",
+        "status" : "broken",
+        "time" : {
+          "start" : 1643053869328,
+          "stop" : 1643054002403,
+          "duration" : 133075
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "call factorial endpoint with number 12",
+        "uid" : "8dd9a799515fb571",
+        "parentUid" : "117a616540c807d3dc0a747efd6dbd2d",
+        "status" : "broken",
+        "time" : {
+          "start" : 1643053869332,
+          "stop" : 1643054002412,
+          "duration" : 133080
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "call factorial endpoint with number 1",
+        "uid" : "fdc1ba5adc0233d2",
+        "parentUid" : "117a616540c807d3dc0a747efd6dbd2d",
+        "status" : "broken",
+        "time" : {
+          "start" : 1643053869337,
+          "stop" : 1643054002410,
+          "duration" : 133073
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "call factorial endpoint with number 979",
+        "uid" : "a91b5f6e8341a568",
+        "parentUid" : "117a616540c807d3dc0a747efd6dbd2d",
+        "status" : "broken",
+        "time" : {
+          "start" : 1643053869339,
+          "stop" : 1643054002413,
+          "duration" : 133074
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "call factorial endpoint with number -10",
+        "uid" : "5a14542ad90335a8",
+        "parentUid" : "117a616540c807d3dc0a747efd6dbd2d",
+        "status" : "broken",
+        "time" : {
+          "start" : 1643053869355,
+          "stop" : 1643054002401,
+          "duration" : 133046
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "117a616540c807d3dc0a747efd6dbd2d"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ],
+  "name" : "categories"
+}
